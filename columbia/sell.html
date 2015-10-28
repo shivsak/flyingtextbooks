@@ -1,0 +1,134 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Flying Textbooks | Sell</title>
+  <meta name="description" content="My Parse App">
+  <meta name="viewport" content="width=1000px, initial-scale=0.4, maximum-scale=1, minimum-scale=0.4">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+  <script type="text/javascript" src="register.js"></script>
+  <script type="text/javascript" src="js/dropzone.js"></script>
+
+  <!--Vex-->
+  <script src="vex/js/vex.combined.min.js"></script>
+  <script>vex.defaultOptions.className = 'vex-theme-top';</script>
+  <link rel="stylesheet" href="vex/css/vex.css" />
+  <link rel="stylesheet" href="vex/css/vex-theme-top.css" />
+
+  <!--Bootstrap-->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+  <div id="cover">
+    <a href="../index.html" class="logo"><img src="resources/images/book1.png" width="70px" class="icon" /></a>
+    <div id="main">
+      <center><h1>Add Book Listing</h1></center><br />
+
+      <form class="form-horizontal" role="form" action="#" id="sell-form">
+        <div class="form-group">
+          <label for="" class="control-label">Email</label>
+          <input type="text" class="form-control" id="email" placeholder="jdoe@columbia.edu" required="yes"/>
+        </div>
+        <div class="form-group">
+          <label for="" class="control-label">Phone</label><span> (Optional)</span>
+          <input type="text" class="form-control" id="phone" placeholder="917-794-6337"/>
+        </div>
+        <div class="form-group">
+          <label for="" class="control-label">Book Title</label>
+          <input type="text" class="form-control" placeholder="Big Java, Late Objects" id="book-title" required="yes"/>
+        </div>
+        <div class="form-group">
+          <label for="" class="control-label">Edition</label><span> (Optional)</span>
+          <input type="text" class="form-control" placeholder="2nd" id="edition" id="" />
+        </div>
+        <!-- Condition -->
+        <!-- <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Condition <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+      <li><a href="#">New</a></li>
+      <li><a href="#">Like New</a></li>
+      <li><a href="#">Average</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Poor</a></li>
+      <li><a href="#">Extremely Poor</a></li>
+    </ul>
+  </div> -->
+
+  <div class="row">
+    <div class="col-lg-6">
+      <label class="control-label">Condition</label>
+      <div class="input-group">
+        <span class="input-group-addon">
+          <input type="radio" name="condition-radio" aria-label="..." id="new-condition" checked="true">
+          <label class="control-label"> New</label>
+        </span>
+        <span class="input-group-addon">
+          <input type="radio" name="condition-radio" aria-label="..." id="like-new-condition">
+          <label class="control-label"> Like New</label>
+        </span>
+        <span class="input-group-addon">
+          <input type="radio" name="condition-radio" aria-label="..." id="decent-condition">
+          <label class="control-label"> Decent</label>
+        </span>
+        <span class="input-group-addon">
+          <input type="radio" name="condition-radio" aria-label="..." id="poor-condition">
+          <label class="control-label"> Poor</label>
+        </span>
+      </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+  </div>
+  <br />
+
+
+  <div class="form-group">
+    <label for="" class="control-label">Author</label><span> (Optional)</span>
+    <input type="text" class="form-control" placeholder="Cay Horstmann" id="author" id="" />
+  </div>
+  <div class="form-group">
+    <label for="" class="control-label">ISBN</label><span> (Optional)</span>
+    <input type="text" class="form-control" placeholder="1234567891" id="isbn" id="" />
+  </div>
+  <div class="form-group">
+    <label for="" class="control-label">Class Name</label>
+    <input type="text" class="form-control" placeholder="COMS 1004" id="course" id="" />
+  </div>
+  <div class="form-group">
+    <label for="" class="control-label">Price</label>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1">$</span>
+      <input type="text" class="form-control" placeholder="50.00" id="price" aria-describedby="basic-addon1" required="yes" />
+    </div>
+  </div>
+</form>
+<!-- <form action="/file-upload" class="dropzone" id="my-awesome-dropzone"></form> -->
+<br />
+<center><button id="register-button" onclick="checkFields()">Post</a></center>
+</div>
+
+<div class="waste-space">
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</div>
+
+<!-- <script type="text/javascript">
+//Check if fields are filled
+
+</script> -->
+
+
+
+</body>
+
+</html>

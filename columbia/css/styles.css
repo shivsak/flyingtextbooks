@@ -1,0 +1,447 @@
+body {
+  background: rgba(25, 15, 45, 1) !important;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding: 0px;
+}
+
+#cover {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image:
+        linear-gradient(rgba(35, 15, 65, 0.6), rgba(25, 15, 45, 1)),
+        url('../resources/images/bg5.jpg');
+}
+
+#main {
+  position: relative;
+  width: 800px;
+  margin: auto;
+  text-align: left;
+  background: rgba(255,255,255,1);
+  padding: 50px 60px;
+  border: solid #ddd;
+  border-width: 1px 1px 1px 1px;
+  margin-top: -400px;
+  margin-left: -400px;
+  top:50%;
+  left: 50%;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.2);
+}
+
+#main h1 {
+  margin-top: 0;
+  font-size: 35px;
+}
+
+#main ul {
+  padding-left: 20px;
+}
+
+#main .error {
+  border: 1px solid red;
+  background: #FDEFF0;
+  padding: 20px;
+}
+
+#main .success {
+  margin-top: 25px;
+}
+
+#main .success code {
+  font-size: 12px;
+  color: green;
+  line-height: 13px;
+}
+
+#register-button {
+  padding: 10px 60px;
+  background-color: #66cc00;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #66cc00;
+}
+
+#register-button:hover {
+  text-decoration: none;
+  background-color: rgba(0, 25, 45, 0);
+  color: #66cc00;
+  border: 1px solid #66cc00;
+  margin: 10px;
+}
+
+#my-awesome-dropzone {
+  background: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 50px 100px;
+  border: 2px dashed rgba(75, 150, 200, 1);
+  width: 100%;
+  margin: 10px;
+}
+
+.waste-space {
+    margin-top:200px;
+    background-color: rgba(250, 250, 40, 0.0);;
+    padding: 100px;
+}
+
+.repeatingDiv {
+  display: inline-block;
+  width: 320px;
+  margin: 40px 10px 0px 0px;
+  padding: 30px 30px;
+  box-shadow: 0px 0px 0px 1.5px rgba(20,20,20,0.15);
+  border-radius: 4px;
+}
+
+.inlineDivHead {
+  margin: 0px 0px 10px 0px;
+  overflow: hidden;
+  padding: 0px;
+  border: 0px solid red;
+  height: 30px;
+}
+
+.bookTitle {
+  border: 0px solid blue;
+  display: inline-block;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-size: 12pt;
+}
+
+.author {
+  border: 0px solid green;
+  display: inline-block;
+  float: left;
+  color:rgba(0,0,0,0.7);
+  margin: 0px
+}
+
+.createdDate {
+  border: 0px solid orange;
+  display: inline-block;
+  float: right;
+  color:rgba(0,0,0,0.3);
+}
+
+.condition {
+  border: 1px solid #66cc00;
+  display: inline-block;
+  float: left;
+  color:rgba(0,0,0,0.7);
+  height: 24px;
+  vertical-align: middle;
+  border-radius: 5px;
+  padding: 0px 10px;
+  line-height: 24px;
+  font-size: 10pt;
+  margin-top: 3px;
+}
+
+.inlineDivSub {
+  margin: 0px 0px 30px 0px;
+  padding: 0px ;
+  border: 0px solid green;
+  height: 30px;
+}
+
+.price, .price:active, .price:visited {
+  background: rgba(255,255,255,1);
+  color: #66cc00;
+  float: center;
+  text-align: center;
+  margin: auto;
+  padding: 10px 100px;
+  border: 1px solid #66cc00;
+  border-radius: 30px;
+  font-weight: 200;
+  width: 110%;
+  float: center;
+}
+
+.price:hover {
+  background: #66cc00;
+  color: white;
+  text-decoration: none;
+}
+
+#search-button {
+  background: rgba(75, 150, 255, 1);
+  border-top: 1px solid rgba(75, 150, 255, 1);
+  border-right: 1px solid rgba(75, 150, 255, 1);
+  border-bottom: 1px solid rgba(75, 150, 255, 1);
+  text-shadow: none;
+  box-shadow: none;
+  color: white;
+}
+
+.welcome-header {
+  color: white;
+  font-size: 4em;
+  font-family: "RockwellStd", "Calibri", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+#main-box {
+  position: absolute;
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: left;
+  background: none;
+  padding: 50px 60px;
+  border: 0px solid #ddd;
+  margin-top: -150px;
+  margin-left: -350px;
+  top:50%;
+  left: 50%;
+}
+
+.intro-button, .intro-button:active, .intro-button:visited, .intro-button:link {
+  margin: 0px 10px;
+  padding: 18px 70px;
+  /*background: linear-gradient(rgba(45,10,75,0.2), rgba(45,10,75,0.5));*/
+  background: rgba(0,0,0,0.05);
+  border: 1.3px solid rgba(255,255,255,1);
+  border-radius: 50px;
+  box-shadow: none;
+  color: rgba(255,255,255,1);
+  font-size: 15pt;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+.intro-button:hover {
+  background: rgba(0,0,0,0.05);
+  text-decoration: none;
+  opacity: 1;
+  /*border-width: 2px 2px 2px 2px;*/
+
+}
+
+.intro-button-big, .intro-button-big:active, .intro-button-big:visited, .intro-button-big:link {
+  margin: 0px 10px;
+  padding: 18px 130px;
+  /*background: linear-gradient(rgba(45,10,75,0.2), rgba(45,10,75,0.5));*/
+  background: rgba(0,0,0,0.05);
+  border: 1.3px solid rgba(255,255,255,1);
+  border-radius: 50px;
+  box-shadow: none;
+  color: rgba(255,255,255,1);
+  font-size: 15pt;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+
+.intro-button-big:hover {
+  background: rgba(0,0,0,0.05);
+  text-decoration: none;
+  opacity: 1;
+}
+
+
+.inline-buttons {
+  background: none;
+  padding-left: 100px;
+}
+
+.icon {
+  position: relative;
+  top: 50px;
+  padding: 10px;
+  border-radius:10px;
+  border: 1px solid white;
+}
+
+a.logo, a.logo:active, a.logo:visited {
+  opacity: 0.6;
+}
+
+a.logo:hover {
+  opacity: 1;
+}
+
+#bigDiv {
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 100%;
+  height: 100%;
+  border: 0px solid red;
+  background: rgba(0,0,0,0);
+  z-index: 99;
+}
+
+#contactDiv {
+  position: fixed;
+  top:50%;
+  left:50%;
+  width: 400px;
+  height: 240px;
+  border: 0px solid red;
+  padding: 100px 50px;
+  background: white;
+  margin: -120px 0px 0px -200px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+}
+
+.contact-links, .contact-links:visited, .contact-links:active {
+  text-decoration: none;
+  color: rgba(50, 190, 255);
+  font-size: 12pt;
+  /*font-weight: 300;*/
+}
+
+.contact-links:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#close-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: black;
+  padding: 4px;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  right: 0px;
+  float: right;
+  background: none;
+  border: none;
+  font-size: 14pt;
+}
+
+.dropdown button {
+  background: none;
+  border: 0px solid rgba(0,0,0,0.3);
+  box-shadow: none;
+  color: rgba(0,0,0,0.4);
+  font-weight: 300;
+  padding: 0px 10px;
+}
+
+.dropdown-menu a:hover, .dropdown-menu li:hover, .dropdown-menu li:link, .dropdown-menu a:link {
+  background: none;
+}
+
+.info-buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin 0px;
+}
+
+.info-button, .info-button:visited, .info-button:active, .info-button:link {
+  margin: 10px;
+  padding: 0px;
+  font-size: 13pt;
+  font-weight: 300;
+  color: white;
+  opacity: 0.3;
+  text-decoration: none;
+}
+
+ .info-button:hover {
+   text-decoration: none;
+   opacity: 0.7;
+   border-bottom: 2px solid white;
+ }
+
+#main-about {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  background: rgba(255,255,255,1);
+  padding: 50px 0px;
+  border: solid #ddd;
+  border-width: 1px 1px 1px 1px;
+  margin-top: -350px;
+  top:50%;
+  left: 0px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.2);
+}
+
+#main-about h1 {
+  width: 75%;
+  margin: auto;
+  padding: 10px 10%;
+  float: center;
+  text-align: left;
+  font-family: "Arvo", serif;
+}
+
+#main-about p {
+  float: center;
+  text-align: left;
+  width: 75%;
+  margin: auto;
+  padding: 10px 10%;
+  color: grey;
+  font-size: 14pt;
+  font-weight: 300;
+  font-family: "Arvo", serif;
+}
+
+#main-about a, a:link, a:visited, a:active {
+  color: @link-color;
+}
+
+#main-about a:hover {
+  color: #66cc00;
+  text-decoration: none;
+}
+
+.colored-icons {
+  color: #66cc00;
+  opacity: 0.5;
+}
+
+.cover-image {
+  width: 55%;
+  padding: 0px 0%;
+  border-radius: 10px;
+  -webkit-border-radius: 6px;
+  float: center;
+  margin: 20px auto;
+  border: 0px solid red;
+
+}

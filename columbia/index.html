@@ -1,0 +1,67 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Flying Textbooks | Columbia</title>
+  <meta name="description" content="Flying Textbooks">
+  <meta name="viewport" content="width=1000px, initial-scale=0.4, maximum-scale=1, minimum-scale=0.4">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+  <script type="text/javascript" src="register.js"></script>
+  <script type="text/javascript" src="js/dropzone.js"></script>
+
+  <!--Bootstrap-->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!--Vex-->
+  <script src="vex/js/vex.combined.min.js"></script>
+  <script>vex.defaultOptions.className = 'vex-theme-default';</script>
+  <link rel="stylesheet" href="vex/css/vex.css" />
+  <link rel="stylesheet" href="vex/css/vex-theme-default.css" />
+
+</head>
+
+<body>
+  <div id="cover">
+    <a href="../index.html" class="logo"><img src="resources/images/book1.png" width="70px" class="icon" /></a>
+    <div id="main-box">
+      <center><h1 class="welcome-header">College Textbooks.</h1></center><br />
+      <div class="inline-buttons">
+        <a href="buy.html?#" class="intro-button">Buy</a>
+        <a href="sell.html" class="intro-button">Sell</a>
+      </div>
+    </div>
+</div>
+
+<div class="waste-space" id="waste">
+  <br />
+</div>
+<div class="info-buttons">
+  <a href="#" class="info-button" onclick="showContactInfo()">Contact</a>
+  <a href="../about.html" class="info-button">About</a>
+</div>
+
+<script type="text/javascript">
+  function showContactInfo() {
+    var email = "ss4757@columbia.edu";
+    var phone = "+1 917-794-6337";
+    var contactText = "<h2>Contact</h2><br />" + "Email: <a href=\"mailto:" + email + "\" class=\"contact-links\">" + email + "</a><br /> Phone: <a href=\"tel:+19177946337\">" + phone + "</a>";
+
+    vex.defaultOptions.className = 'vex-theme-default';
+    vex.dialog.alert({
+      message: contactText,
+      className: 'vex-theme-default'
+    });
+  }
+</script>
+
+</body>
+
+</html>
